@@ -97,7 +97,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <h1 class="modal-title fs-5" id="loginModalLabel">
-                      Modal title
+                      Please Signin here
                     </h1>
                     <button
                       type="button"
@@ -126,7 +126,7 @@
                         type="email"
                         class="form-control"
                         id="exampleFormControlInput1"
-                        placeholder="Enter your passowrd"
+                        placeholder="Enter your password"
                       />
                     </div>
                     <div class="form-check">
@@ -140,9 +140,7 @@
                         Keep me logged in
                       </label>
                     </div>
-                    <button type="button" class="btn btn-success">
-                      Submit
-                    </button>
+                    <button type="button" class="btn btn-success">Login</button>
                   </div>
                   <div class="modal-footer">
                     <button
@@ -161,7 +159,7 @@
               type="button"
               class="btn btn-danger"
               data-bs-toggle="modal"
-              data-bs-target="#loginModal"
+              data-bs-target="#signupModal"
             >
               Signup
             </button>
@@ -178,7 +176,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <h1 class="modal-title fs-5" id="signupModalLabel">
-                      Modal title
+                      Please signup here
                     </h1>
                     <button
                       type="button"
@@ -188,6 +186,17 @@
                     ></button>
                   </div>
                   <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="nameFormControlInput1" class="form-label"
+                        >Full Name</label
+                      >
+                      <input
+                        type="name"
+                        class="form-control"
+                        id="signupFormControlInput1"
+                        placeholder="Enter your full name"
+                      />
+                    </div>
                     <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label"
                         >Email address</label
@@ -210,20 +219,20 @@
                         placeholder="Enter your password"
                       />
                     </div>
-
-                    <div class="form-check">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Confirm Password</label
+                      >
                       <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
+                        type="password"
+                        class="form-control"
+                        id="signupFormControlInput1"
+                        placeholder="Enter confirm password"
                       />
-                      <label class="form-check-label" for="flexCheckDefault">
-                        Keep me logged in
-                      </label>
                     </div>
+
                     <button type="button" class="btn btn-success">
-                      Submit
+                      Create Account
                     </button>
                   </div>
                   <div class="modal-footer">
